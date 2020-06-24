@@ -1,3 +1,4 @@
+import os
 import telegram
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
@@ -5,7 +6,7 @@ from handlers import *
 
 
 def run_bot():
-    token = '1099491551:AAGayElAv5o3i91P2D3tMPQC9sdJi37OEJM'
+    token = os.getenv("TELEGRAM_TOKEN")
     updater = Updater(token, use_context=True)
     dispatcher = updater.dispatcher
 
