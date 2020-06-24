@@ -1,0 +1,108 @@
+{
+    "name": "online_courses",
+    "topics": ["Machine Learning", "Deep Learning", "Neural networks", "Natural Language Processing", "Linear Algebra", "Python"],
+    "courses": {
+        "Machine Learning": [{
+                "title": "Introduction to Machine Learning for Coders",
+                "url": "http://course18.fast.ai/ml",
+                "language": "gb",
+                "cost": "free",
+                "provider": "FastAI",
+                "provider-url": "https://www.fast.ai"
+            },
+            {
+                "title": "Open Machine Learning Course",
+                "url": "https://mlcourse.ai",
+                "language": "gb",
+                "cost": "free",
+                "provider": "OpenDataScience",
+                "provider-url": "https://ods.ai"
+            }
+        ],
+        "Deep Learning": [{
+                "title": "Practical Deep Learning for Coders",
+                "url": "https://course.fast.ai",
+                "language": "gb",
+                "cost": "free",
+                "provider": "FastAI",
+                "provider-url": "https://www.fast.ai"
+            },
+            {
+                "title": "Intro to Deep Learning",
+                "url": "https://www.youtube.com/playlist?list=PL2-dafEMk2A7YdKv4XfKpfbTH5z6rEEj3",
+                "language": "gb",
+                "cost": "free",
+                "provider": "Siraj Raval",
+                "provider-url": "https://github.com/llSourcell"
+            },
+            {
+                "title": "Deep Learning на пальцах",
+                "url": "https://dlcourse.ai",
+                "language": "ru",
+                "cost": "free",
+                "provider": "Семен Козлов",
+                "provider-url": "https://twitter.com/sim0nsays"
+            }
+        ],
+        "Natural Language Processing": [{
+                "title": "A Code-First Introduction to Natural Language Processing",
+                "url": "https://www.fast.ai/2019/07/08/fastai-nlp",
+                "language": "gb",
+                "cost": "free",
+                "provider": "FastAI",
+                "provider-url": "https://www.fast.ai"
+            }
+        ],
+        "Linear Algebra": [{
+                "title": "Computational Linear Algebra for Coders",
+                "url": "https://github.com/fastai/numerical-linear-algebra",
+                "language": "gb",
+                "cost": "free",
+                "provider": "FastAI",
+                "provider-url": "https://www.fast.ai"
+            },
+            {
+                "title": "Essence of linear algebra",
+                "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+                "language": "gb",
+                "cost": "free",
+                "provider": "3blue1brown",
+                "provider-url": "https://www.3blue1brown.com"
+            }
+        ],
+        "Neural networks": [{
+                "title": "Neural networks",
+                "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+                "language": "gb",
+                "cost": "free",
+                "provider": "3blue1brown",
+                "provider-url": "https://www.3blue1brown.com"
+            },
+            {
+                "title": "Программирование нейросетей на Python",
+                "url": "https://www.asozykin.ru/courses/nnpython",
+                "language": "ru",
+                "cost": "free",
+                "provider": "Андрей Созыкин",
+                "provider-url": "https://www.asozykin.ru"
+            }
+        ],
+        "Python": [{
+                "title": "Learn Python for Data Science",
+                "url": "https://www.youtube.com/playlist?list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU",
+                "language": "gb",
+                "cost": "free",
+                "provider": "Siraj Raval",
+                "provider-url": "https://github.com/llSourcell"
+            },
+            {
+                "title": "Прикладной Python",
+                "url": "https://www.youtube.com/playlist?list=PLrCZzMib1e9qM62lMXC90SiFy7-1-kAPJ",
+                "language": "ru",
+                "cost": "free",
+                "provider": "Технопарк Mail.ru Group",
+                "provider-url": "https://park.mail.ru/pages/index/"
+            }
+        ]
+    }
+}
