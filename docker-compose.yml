@@ -1,0 +1,34 @@
+version: '3.1'
+
+services:
+    data_storage:
+        image: mongo:4.2.5
+        container_name: data_storage
+        environment:
+            - MONGO_INITDB_ROOT_USERNAME=defUser
+            - MONGO_INITDB_ROOT_PASSWORD=defPass
+        volumes:
+            - ./storage-volume:/data/db
+        ports:
+            - 27017:27017
+        network_mode: bridge
+        restart: always
+    backend:
+        image: ds-expert-backend
+        container_name: backend
+        build:
+            context: .
+            dockerfile: backend.dockerfile
+        environment:
+            - DATA_STORAGE_URL=mongodb://data_storage:27017/
+            - DATA_STORAGE_USERNAME=defUser
+            - DATA_STORAGE_PASSWORD=defPass
+            - DATA_STORAGE_NAME=ds_advisor
+            - REDIS_KEY_LIFETIME=3600
+            - TELEGRAM_TOKEN=PUT_YOUR_TELEGRAM:TOKEN_HERE
+        depends_on:
+            - data_storage
+        links:
+            - data_storage:data_storage
+        network_mode: bridge
+        restart: always
