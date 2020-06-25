@@ -1,0 +1,59 @@
+{
+    "name": "practice_platforms",
+    "platforms": [
+        {
+            "title": "Kaggle",
+            "description": "Kaggle is the world's largest data science community with powerful tools and resources to help you achieve your data science goals",
+            "url": "https://www.kaggle.com",
+            "languages": ["gb"]
+        },
+        {
+            "title": "Driven Data",
+            "description": "DrivenData works on projects at the intersection of data science and social impact, in areas like international development, health, education, research and conservation, and public services. ",
+            "url": "https://www.drivendata.org",
+            "languages": ["gb"]
+        },
+        {
+            "title": "Codalab",
+            "description": "Codalab is is an open-source web-based platform that enables researchers, developers, and data scientists to collaborate, with the goal of advancing research fields where machine learning and advanced computation is used",
+            "url": "https://competitions.codalab.org",
+            "languages": ["gb"]
+        },
+        {
+            "title": "Crowd ANALYTIX Community",
+            "description": "The CrowdANALYTIX Community: where data experts collaborate & compete to build & optimize AI, ML, NLP and Deep Learning algorithms",
+            "url": "https://www.crowdanalytix.com/community",
+            "languages": ["gb"]
+        },
+        {
+            "title": "KDD Cup",
+            "description": "KDD Cup is the annual Data Mining and Knowledge Discovery competition organized by ACM Special Interest Group on Knowledge Discovery and Data Mining, the leading professional organization of data miners",
+            "url": "https://www.kdd.org/kdd2019/kdd-cup",
+            "languages": ["gb"]
+        },
+        {
+            "title": "Zindi",
+            "description": "Zindi gives African data scientists a place to learn new skills, grow through our competitions and our community and access work opportunities",
+            "url": "https://zindi.africa",
+            "languages": ["gb"]
+        },
+        {
+            "title": "Machine Learning Contests",
+            "description": "Discover ongoing machine learning competitions/data science contests across Kaggle, DrivenData, AICrowd, and other platforms",
+            "url": "https://mlcontests.com",
+            "languages": ["gb"]
+        },
+        {
+            "title": "ML Boot Camp",
+            "description": "Machine Learning and Data Analysis contests",
+            "url": "https://mlbootcamp.ru/en/main/",
+            "languages": ["gb", "ru"]
+        },
+        {
+            "title": "Boosters.pro",
+            "description": "The largest platform for holding contests concerning data analysis in Russia and Eastern Europe",
+            "url": "https://boosters.pro",
+            "languages": ["gb", "ru"]
+        }
+    ]
+}
