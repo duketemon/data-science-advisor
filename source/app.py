@@ -1,6 +1,6 @@
 import os
 import telegram
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram.ext import Updater, CommandHandler
 
 from handlers import *
 
@@ -12,6 +12,7 @@ def run_bot():
 
     dispatcher.add_handler(CommandHandler("start", start_handler))
     dispatcher.add_handler(CommandHandler("online_courses", online_courses_handler))
+    dispatcher.add_handler(CommandHandler("practice_platforms", practice_platforms_handler))
     dispatcher.add_handler(CommandHandler("help", help_handler))
     dispatcher.add_handler(telegram.ext.CallbackQueryHandler(callback_query_handler))
     # dispatcher.add_handler(MessageHandler(Filters.text, next_move_handler))
