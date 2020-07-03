@@ -1,11 +1,11 @@
 # Data Science Advisor
-The telegram bot which provides access to the data science knowledge base
+The [telegram bot](https://t.me/ds_advisor_bot) which provides access to the data science knowledge base
 
 ## Implemented features
-* Recommend online courses - `/online_courses`
-* Recommend platforms to practice your skills - `/practice_platforms`
+* `/online_courses` - recommend online courses
+* `/practice_platforms` - recommend platforms to practice your skills
+* `/essential_skills` - list of essential skills for a position
 
 ## Ideas for future releases
 * Recommendation of open-source projects for further contributions
-* Pathways. What skills required to get a position (ML engineer, Data Analyst, Data Scientist, ...)
 * Virtual interview. The will ask a user questions for some position (ML engineer, Data Analyst, Data Scientist, ...)
