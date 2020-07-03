@@ -10,6 +10,12 @@ from data.essential_skills import get_essential_skills
 from view.essential_skills import create_essential_skills_view
 
 
+DEFAULT_SETTINGS = {
+    'parse_mode': telegram.ParseMode.MARKDOWN,
+    'disable_web_page_preview': True
+}
+
+
 def callback_query_handler(update, context):
     request = update.callback_query.data
     if request.startswith('online_courses'):
@@ -19,7 +25,7 @@ def callback_query_handler(update, context):
         context.bot.send_message(
             chat_id=update.effective_chat.id,
             text=view,
-            parse_mode=telegram.ParseMode.MARKDOWN
+            **DEFAULT_SETTINGS
         )
     elif request.startswith('practice_platforms'):
         topic = ' '.join(request.split(' ')[1:])
@@ -28,7 +34,7 @@ def callback_query_handler(update, context):
         context.bot.send_message(
             chat_id=update.effective_chat.id,
             text=view,
-            parse_mode=telegram.ParseMode.MARKDOWN
+            **DEFAULT_SETTINGS
         )
     elif request.startswith('essential_skills'):
         title = ' '.join(request.split(' ')[1:])
@@ -37,5 +43,5 @@ def callback_query_handler(update, context):
         context.bot.send_message(
             chat_id=update.effective_chat.id,
             text=view,
-            parse_mode=telegram.ParseMode.MARKDOWN
+            **DEFAULT_SETTINGS
         )
