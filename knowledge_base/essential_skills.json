@@ -1,0 +1,33 @@
+{
+    "name": "essential_skills",
+    "titles": ["Data Analyst", "Data Engineer"],
+    "data": {
+        "Data Analyst": {
+            "source-url": "",
+            "skills": [
+                "Math/Statistics",
+                "Strong knowledge of SQL",
+                "Programming. Python/R/SAS",
+                "Problem solving",
+                "Data Visualization",
+                "Communication",
+                "Domain Expertise"
+            ]
+        },
+        "Data Engineer": {
+            "source-url": "https://www.recruitday.com/blog/essential-skills-you-need-become-data-engineer",
+            "skills": [
+                "Structured Query Language",
+                "Data warehousing and ETL tools",
+                "Big data tools",
+                "Python, Java, Scala",
+                "Operating systems knowledge",
+                "Experience with cloud platforms",
+                "Machine Learning familiarity",
+                "Logical mind",
+                "Organizational skills",
+                "Ability to work with cross-functional teams"
+            ]
+        }
+    }
+}

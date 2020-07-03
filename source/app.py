@@ -13,6 +13,7 @@ def run_bot():
     dispatcher.add_handler(CommandHandler("start", start_handler))
     dispatcher.add_handler(CommandHandler("online_courses", online_courses_handler))
     dispatcher.add_handler(CommandHandler("practice_platforms", practice_platforms_handler))
+    dispatcher.add_handler(CommandHandler("essential_skills", essential_skills_handler))
     dispatcher.add_handler(CommandHandler("help", help_handler))
     dispatcher.add_handler(telegram.ext.CallbackQueryHandler(callback_query_handler))
     # dispatcher.add_handler(MessageHandler(Filters.text, next_move_handler))

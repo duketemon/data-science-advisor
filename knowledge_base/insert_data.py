@@ -16,6 +16,6 @@ password = 'defPass'
 client = MongoClient(url, username=username, password=password)
 db = client['ds_advisor']
 
-filenames = ['online_courses', 'practice_platforms']
+filenames = ['online_courses', 'practice_platforms', 'essential_skills']
 for filename in filenames:
     insert_data(db, filename)
