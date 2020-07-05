@@ -1,0 +1,70 @@
+{
+    "name": "lectures",
+    "data": {
+        "Machine Learning": [{
+                "title": "Introduction to Machine Learning for Coders",
+                "url": "http://course18.fast.ai/ml",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "FastAI",
+                    "url": "https://www.fast.ai"
+                }]
+            }
+        ],
+        "Deep Learning": [{
+                "title": "Intro to Deep Learning",
+                "url": "https://www.youtube.com/playlist?list=PL2-dafEMk2A7YdKv4XfKpfbTH5z6rEEj3",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "Siraj Raval",
+                    "url": "https://github.com/llSourcell"
+                }]
+            }
+        ],
+        "Linear Algebra": [{
+                "title": "Essence of linear algebra",
+                "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "3blue1brown",
+                    "url": "https://www.3blue1brown.com"
+                }]
+            }
+        ],
+        "Neural networks": [{
+                "title": "Neural networks",
+                "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "3blue1brown",
+                    "url": "https://www.3blue1brown.com"
+                }]
+            }
+        ],
+        "Python": [{
+                "title": "Learn Python for Data Science",
+                "url": "https://www.youtube.com/playlist?list=PL2-dafEMk2A6QKz1mrk1uIGfHkC1zZ6UU",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "Siraj Raval",
+                    "url": "https://github.com/llSourcell"
+                }]
+            },
+            {
+                "title": "Прикладной Python",
+                "url": "https://www.youtube.com/playlist?list=PLrCZzMib1e9qM62lMXC90SiFy7-1-kAPJ",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Технопарк Mail.ru Group",
+                    "url": "https://park.mail.ru/pages/index"
+                }]
+            }
+        ]
+    }
+}
