@@ -1,12 +1,12 @@
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from utils.ui import build_menu
-from data.online_courses import get_topics
+from data.courses import get_topics
 
 
-def online_courses_handler(update, context):
+def courses_handler(update, context):
     topics = get_topics()
     button_list = [
-        InlineKeyboardButton(text=topic, callback_data=f"online_courses {topic}")
+        InlineKeyboardButton(text=topic, callback_data=f"courses {topic}")
         for topic in topics
     ]
     reply_markup = InlineKeyboardMarkup(build_menu(button_list, n_cols=2))

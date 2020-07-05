@@ -1,0 +1,559 @@
+{
+    "name": "courses",
+    "data": {
+        "Machine Learning": [
+            {
+                "title": "Open Machine Learning Course",
+                "url": "https://mlcourse.ai",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "OpenDataScience",
+                    "url": "https://ods.ai"
+                }]
+            },
+            {
+                "title": "Машинное обучение и управление проектами в IT для преподавателей",
+                "url": "https://stepik.org/course/71439/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "VK Education",
+                    "url": "https://vk.com/tech"
+                }]
+            }
+        ],
+        "Deep Learning": [{
+                "title": "Practical Deep Learning for Coders",
+                "url": "https://course.fast.ai",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "FastAI",
+                    "url": "https://www.fast.ai"
+                }]
+            },
+            {
+                "title": "Deep Learning на пальцах",
+                "url": "https://dlcourse.ai",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Семен Козлов",
+                    "url": "https://twitter.com/sim0nsays"
+                }]
+            }
+        ],
+        "Natural Language Processing": [{
+                "title": "A Code-First Introduction to Natural Language Processing",
+                "url": "https://www.fast.ai/2019/07/08/fastai-nlp",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "FastAI",
+                    "url": "https://www.fast.ai"
+                }]
+            },
+            {
+                "title": "Нейронные сети и обработка текста",
+                "url": "https://stepik.org/course/54098/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Samsung Research Russia Open Education",
+                    "url": "https://research.samsung.com/srr"
+                }]
+            },
+            {
+                "title": "Введение в обработку естественного языка",
+                "url": "https://stepik.org/course/1233/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Stepik",
+                    "url": "https://stepik.org"
+                }]
+            }
+        ],
+        "Math": [{
+                "title": "Computational Linear Algebra for Coders",
+                "url": "https://github.com/fastai/numerical-linear-algebra",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "FastAI",
+                    "url": "https://www.fast.ai"
+                }]
+            },
+            {
+                "title": "Linear Algebra: Problems and Methods",
+                "url": "https://stepik.org/79",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "Stepik",
+                    "url": "https://stepik.org"
+                }]
+            },
+            {
+                "title": "Введение в математический анализ",
+                "url": "https://stepik.org/95",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Computer Science Center",
+                    "url": "https://compscicenter.ru"
+                }]
+            },
+            {
+                "title": "Математический анализ (часть 1)",
+                "url": "https://stepik.org/716",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Computer Science Center",
+                    "url": "https://compscicenter.ru"
+                }]
+            },
+            {
+                "title": "Математический анализ (часть 2)",
+                "url": "https://stepik.org/711",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Computer Science Center",
+                    "url": "https://compscicenter.ru"
+                }]
+            },
+            {
+                "title": "Теория вероятностей",
+                "url": "https://stepik.org/3089",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Computer Science Center",
+                    "url": "https://compscicenter.ru"
+                }]
+            },
+            {
+                "title": "Математическая логика и теория алгоритмов",
+                "url": "https://stepik.org/48679",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "ТУСУР",
+                    "url": "https://tusur.ru"
+                }]
+            },
+            {
+                "title": "Дискретные структуры",
+                "url": "https://stepik.org/83",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Stepik",
+                    "url": "https://stepik.org"
+                }]
+            },
+            {
+                "title": "Теория вероятностей – наука о случайности",
+                "url": "https://stepik.org/2911",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Stepik",
+                    "url": "https://stepik.org"
+                }]
+            },
+            {
+                "title": "Основы дискретной математики",
+                "url": "https://stepik.org/1127",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Computer Science Center",
+                    "url": "https://compscicenter.ru"
+                }]
+            },
+            {
+                "title": "Линейная алгебра",
+                "url": "https://stepik.org/2461",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Computer Science Center",
+                    "url": "https://compscicenter.ru"
+                }]
+            },
+            {
+                "title": "Основы теории графов",
+                "url": "https://stepik.org/126",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Computer Science Center",
+                    "url": "https://compscicenter.ru"
+                }]
+            },
+            {
+                "title": "Основы перечислительной комбинаторики",
+                "url": "https://stepik.org/125",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Computer Science Center",
+                    "url": "https://compscicenter.ru"
+                }]
+            },
+            {
+                "title": "Введение в дискретную математику",
+                "url": "https://stepik.org/902",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Bioinformatics Institute",
+                    "url": "http://bioinf.me"
+                }]
+            },
+            {
+                "title": "Теория вероятностей – наука о случайности. Часть 2",
+                "url": "https://stepik.org/3209",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Томский государственный университет",
+                    "url": "http://www.tsu.ru"
+                }]
+            },
+            {
+                "title": "Линейная алгебра и геометрия. Часть 2: векторная алгебра",
+                "url": "https://stepik.org/4940",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Волгатех ПГТУ",
+                    "url": "https://www.volgatech.net"
+                }]
+            },
+            {
+                "title": "Теория графов",
+                "url": "https://stepik.org/5608",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Stepik",
+                    "url": "https://stepik.org"
+                }]
+            }
+        ],
+        "Neural networks": [{
+                "title": "Нейронные сети",
+                "url": "https://stepik.org/course/401/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Bioinformatics Institute",
+                    "url": "http://bioinf.me"
+                }]
+            },
+            {
+                "title": "Программирование нейросетей на Python",
+                "url": "https://www.asozykin.ru/courses/nnpython",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Андрей Созыкин",
+                    "url": "https://www.asozykin.ru"
+                }]
+            }
+        ],
+        "Python": [{
+                "title": "Introduction to Python",
+                "url": "https://stepik.org/course/238/promo",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "JetBrains",
+                    "url": "https://www.jetbrains.com"
+                }]
+            },
+            {
+                "title": "Python. Functional Programming",
+                "url": "https://stepik.org/course/2057/promo",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "Stepik",
+                    "url": "https://stepik.org"
+                }]
+            },
+            {
+                "title": "Основы программирования на языке Python в примерах и задачах",
+                "url": "https://stepik.org/course/58638/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Дальневосточный федеральный университет",
+                    "url": "https://www.dvfu.ru"
+                }]
+            },
+            {
+                "title": "Python: основы и применение",
+                "url": "https://stepik.org/course/512/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Bioinformatics Institute",
+                    "url": "http://bioinf.me"
+                }]
+            }
+        ],
+        "Java": [{
+                "title": "Java. Functional programming",
+                "url": "https://stepik.org/course/1595/promo",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "Stepik",
+                    "url": "https://stepik.org"
+                }]
+            },
+            {
+                "title": "Java. Introduction",
+                "url": "https://stepik.org/course/6858/promo",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "JetBrains",
+                    "url": "https://www.jetbrains.com"
+                },
+                {
+                    "name": "Ekaterina Tuzova",
+                    "url": "https://stepik.org/users/625832"
+                }]
+            },
+            {
+                "title": "Java. Базовый курс",
+                "url": "https://stepik.org/course/187/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Computer Science Center",
+                    "url": "https://compscicenter.ru"
+                }]
+            },
+            {
+                "title": "Летняя Java школа",
+                "url": "https://stepik.org/course/10498/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Stepik",
+                    "url": "https://stepik.org"
+                }]
+            }
+        ],
+        "R": [{
+                "title": "Анализ данных в R",
+                "url": "https://stepik.org/129",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Bioinformatics Institute",
+                    "url": "http://bioinf.me"
+                }]
+            },
+            {
+                "title": "Анализ данных в R. Часть 2",
+                "url": "https://stepik.org/724",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Bioinformatics Institute",
+                    "url": "http://bioinf.me"
+                }]
+            },
+            {
+                "title": "Основы программирования на R",
+                "url": "https://stepik.org/497",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Bioinformatics Institute",
+                    "url": "http://bioinf.me"
+                }]
+            }
+        ],
+        "Statistics": [{
+                "title": "Introduction to Statistics",
+                "url": "https://stepik.org/701",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "Bioinformatics Institute",
+                    "url": "http://bioinf.me"
+                }]
+            },
+            {
+                "title": "Математическая статистика",
+                "url": "https://stepik.org/326",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Computer Science Center",
+                    "url": "https://compscicenter.ru"
+                }]
+            },
+            {
+                "title": "Основы статистики",
+                "url": "https://stepik.org/76",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Bioinformatics Institute",
+                    "url": "http://bioinf.me"
+                }]
+            },
+            {
+                "title": "Основы статистики. Часть 2",
+                "url": "https://stepik.org/524",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Bioinformatics Institute",
+                    "url": "http://bioinf.me"
+                }]
+            },
+            {
+                "title": "Основы статистики. Часть 3",
+                "url": "https://stepik.org/2152",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Bioinformatics Institute",
+                    "url": "http://bioinf.me"
+                }]
+            }
+        ],
+        "Git": [{
+                "title": "Applied Computer Science. Git",
+                "url": "https://stepik.org/course/2159/promo",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "Stepik",
+                    "url": "https://stepik.org"
+                }]
+            },
+            {
+                "title": "Основы Git",
+                "url": "https://stepik.org/course/3145/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Stepik",
+                    "url": "https://stepik.org"
+                }]
+            }
+        ],
+        "Scala": [{
+                "title": "Introduction to programming with dependent types in Scala (2019)",
+                "url": "https://stepik.org/course/49181/promo",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "Stepik",
+                    "url": "https://stepik.org"
+                }]
+            }
+        ],
+        "C++": [{
+                "title": "Введение в программирование (C++)",
+                "url": "https://stepik.org/course/363/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Академия Яндекса",
+                    "url": "https://academy.yandex.ru"
+                },
+                {
+                    "name": "Высшая школа экономики",
+                    "url": "http://www.hse.ru"
+                }]
+            },
+            {
+                "title": "Программирование на языке C++",
+                "url": "https://stepik.org/course/7/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Computer Science Center",
+                    "url": "https://compscicenter.ru"
+                }]
+            },
+            {
+                "title": "Программирование на языке C++ (продолжение)",
+                "url": "https://stepik.org/course/3206/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Computer Science Center",
+                    "url": "https://compscicenter.ru"
+                }]
+            },
+            {
+                "title": "Углубленное программирование на C/C++",
+                "url": "https://stepik.org/course/153/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Mail.ru Group",
+                    "url": "https://corp.mail.ru"
+                }]
+            },
+            {
+                "title": "Многопоточное программирование на С/С++",
+                "url": "https://stepik.org/course/149/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Mail.ru Group",
+                    "url": "https://corp.mail.ru"
+                }]
+            }
+        ],
+        "SQL": [{
+                "title": "Интерактивный тренажер по SQL",
+                "url": "https://stepik.org/course/63054/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Дальневосточный федеральный университет",
+                    "url": "https://www.dvfu.ru"
+                }]
+            }
+        ],
+        "Big Data": [{
+                "title": "Hadoop. Система для обработки больших объемов данных",
+                "url": "https://stepik.org/course/150/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Mail.ru Group",
+                    "url": "https://corp.mail.ru"
+                }]
+            }
+        ],
+        "Computer Vision": [{
+                "title": "Нейронные сети и компьютерное зрение",
+                "url": "https://stepik.org/course/50352/promo",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Samsung Research Russia Open Education",
+                    "url": "https://research.samsung.com/srr"
+                }]
+            }
+        ]
+    }
+}

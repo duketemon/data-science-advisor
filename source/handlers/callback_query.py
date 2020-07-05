@@ -1,7 +1,7 @@
 import telegram
 
-from data.online_courses import get_courses
-from view.online_courses import create_online_courses_view
+from data.courses import get_courses
+from view.courses import create_courses_view
 
 from data.practice_platforms import get_platforms
 from view.practice_platforms import create_practice_platforms_view
@@ -18,10 +18,10 @@ DEFAULT_SETTINGS = {
 
 def callback_query_handler(update, context):
     request = update.callback_query.data
-    if request.startswith('online_courses'):
+    if request.startswith('courses'):
         topic = ' '.join(request.split(' ')[1:])
         courses = get_courses(topic)
-        view = create_online_courses_view(topic, courses)
+        view = create_courses_view(topic, courses)
         context.bot.send_message(
             chat_id=update.effective_chat.id,
             text=view,

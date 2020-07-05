@@ -11,7 +11,7 @@ def run_bot():
     dispatcher = updater.dispatcher
 
     dispatcher.add_handler(CommandHandler("start", start_handler))
-    dispatcher.add_handler(CommandHandler("online_courses", online_courses_handler))
+    dispatcher.add_handler(CommandHandler("courses", courses_handler))
     dispatcher.add_handler(CommandHandler("practice_platforms", practice_platforms_handler))
     dispatcher.add_handler(CommandHandler("essential_skills", essential_skills_handler))
     dispatcher.add_handler(CommandHandler("help", help_handler))
