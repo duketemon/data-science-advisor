@@ -2,7 +2,8 @@
 The [telegram bot](https://t.me/ds_advisor_bot) which provides access to the data science knowledge base
 
 ## Implemented features
-* `/online_courses` - recommend online courses
+* `/courses` - recommend courses (theory + practice)
+* `/lectures` - recommend lectures (only theory)
 * `/practice_platforms` - recommend platforms to practice your skills
 * `/essential_skills` - list of essential skills for a position
 
