@@ -5,7 +5,7 @@ from pymongo import MongoClient
 
 def insert_data(db, filename):
     collection = db.knowledge_base
-    with open(filename + '.json') as f:
+    with open(f'data/{filename}.json') as f:
         data = json.load(f)
     collection.insert_one(data)
 
