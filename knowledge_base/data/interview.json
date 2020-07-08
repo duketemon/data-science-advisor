@@ -1,0 +1,35 @@
+{
+    "name": "interview",
+    "data": {
+        "Behavioral": {
+            "questions": [{
+                    "text": "Tell me about yourself",
+                    "hint": "In this question you shouldn't tell about your personal life. You should tell about your professional background and experience"
+                },
+                {
+                    "text": "What are your weaknesses?"
+                },
+                {
+                    "text": "Give me an example of a time you made a decision that was unpopular and explain how you handled implementing it"
+                },
+                {
+                    "text": "Tell me about a time when you made a mistake. What did you do to correct it?"
+                },
+                {
+                    "text": "Tell me about a time when you were in conflict with a peer and how the situation was resolved"
+                },
+                {
+                    "text": "Tell me about a time you were under a lot of pressure. What was going on, and how did you get through it?"
+                },
+                {
+                    "text": "Give an example of how you set goals",
+                    "hint": "With this question, the interviewer wants to know how well you plan and set goals for what you want to accomplish. The easiest way to respond is to share examples of successful goal setting"
+                },
+                {
+                    "text": "Give an example of a goal you reached and tell me how you achieved it",
+                    "hint": "The hiring manager is interested in learning what you do to achieve your goals, and the steps you take to accomplish them"
+                }
+            ]
+        }
+    }
+}
