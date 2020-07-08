@@ -1,5 +1,8 @@
 import telegram
 
+from data.interview import get_questions
+from view.interview import create_interview_view
+
 from data.courses import get_courses
 from view.courses import create_courses_view
 
@@ -29,7 +32,13 @@ def __send_view(update, context, view):
 
 def callback_query_handler(update, context):
     request = update.callback_query.data
-    if request.startswith('courses'):
+
+    if request.startswith('interview'):
+        topic = ' '.join(request.split(' ')[1:])
+        questions = get_questions(topic)
+        view = create_interview_view(topic, questions)
+        __send_view(update, context, view)
+    elif request.startswith('courses'):
         topic = ' '.join(request.split(' ')[1:])
         courses = get_courses(topic)
         view = create_courses_view(topic, courses)
