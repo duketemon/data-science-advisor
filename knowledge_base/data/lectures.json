@@ -97,6 +97,38 @@
                     "url": "https://www.stanford.edu"
                 }]
             }
+        ],
+        "Java": [{
+                "title": "Введение в Java",
+                "url": "https://polis.mail.ru/curriculum/program/elective/?fbclid=IwAR3k2qCJ9WyRC_rr4SD6aIPOjnjzKCUbCZbN5MCL_XaLy0th6R4Fz9TK9co",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Технополис",
+                    "url": "https://polis.mail.ru/pages/index"
+                }]
+            },
+            {
+                "title": "Разработка на Java",
+                "url": "https://www.youtube.com/playlist?list=PLrCZzMib1e9qUdn_LEm96Oee3RVb9Qmr_",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Технотрек",
+                    "url": "https://track.mail.ru/pages/index"
+                }]
+            }
+        ],
+        "C++": [{
+                "title": "Углубленное программирование на C/C++",
+                "url": "https://www.youtube.com/playlist?list=PLrCZzMib1e9qjGLjg83bCksf3N7FIy7jg",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Техносфера",
+                    "url": "https://sphere.mail.ru/pages/index"
+                }]
+            }
         ]
     }
 }
