@@ -1,7 +1,16 @@
 {
     "name": "courses",
     "data": {
-        "Machine Learning": [
+        "Machine Learning": [{
+                "title": "Machine Learning",
+                "url": "https://www.coursera.org/learn/machine-learning",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "Stanford University",
+                    "url": "https://www.stanford.edu"
+                }]
+            },
             {
                 "title": "Open Machine Learning Course",
                 "url": "https://mlcourse.ai",
