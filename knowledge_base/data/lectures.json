@@ -13,6 +13,16 @@
             }
         ],
         "Deep Learning": [{
+                "title": "Introduction to Deep Learning",
+                "url": "https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "MIT",
+                    "url": "https://www.mit.edu"
+                }]
+            },
+            {
                 "title": "Intro to Deep Learning",
                 "url": "https://www.youtube.com/playlist?list=PL2-dafEMk2A7YdKv4XfKpfbTH5z6rEEj3",
                 "language": "gb",
@@ -63,6 +73,28 @@
                 "providers": [{
                     "name": "Технопарк Mail.ru Group",
                     "url": "https://park.mail.ru/pages/index"
+                }]
+            }
+        ],
+        "Reinforcement Learning": [{
+                "title": "Reinforcement Learning",
+                "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "Stanford University",
+                    "url": "https://www.stanford.edu"
+                }]
+            }
+        ],
+        "Natural Language Processing": [{
+                "title": "Natural Language Processing with Deep Learning",
+                "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rOhcuXMZkNm7j3fVwBBY42z",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "Stanford University",
+                    "url": "https://www.stanford.edu"
                 }]
             }
         ]
