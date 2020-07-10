@@ -1,9 +1,7 @@
 {
     "name": "practice_platforms",
-    "topics": ["Data Science", "Python"],
-    "platforms": {
-        "Data Science": [
-            {
+    "data": {
+        "Data Science": [{
                 "title": "Kaggle",
                 "description": "Kaggle is the world's largest data science community with powerful tools and resources to help you achieve your data science goals",
                 "url": "https://www.kaggle.com",
@@ -58,8 +56,7 @@
                 "languages": ["gb", "ru"]
             }
         ],
-        "Python": [
-            {
+        "Python": [{
                 "title": "CheckiO",
                 "description": "Coding games for beginners and advanced programmers where you can improve your coding skills by solving engaging challenges and fun task using Python and TypeScript",
                 "url": "https://checkio.org",
@@ -75,6 +72,13 @@
                 "title": "HackerRank",
                 "description": "HackerRank is the market-leading technical assessment and remote interview solution for hiring developers",
                 "url": "https://www.hackerrank.com/domains/python",
+                "languages": ["gb"]
+            }
+        ],
+        "Functional Programming": [{
+                "title": "HackerRank",
+                "description": "HackerRank is the market-leading technical assessment and remote interview solution for hiring developers",
+                "url": "https://www.hackerrank.com/domains/fp",
                 "languages": ["gb"]
             }
         ]
