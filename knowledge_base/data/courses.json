@@ -466,13 +466,23 @@
             }
         ],
         "Scala": [{
-                "title": "Introduction to programming with dependent types in Scala (2019)",
-                "url": "https://stepik.org/course/49181/promo",
+                "title": "Introduction to programming with dependent types in Scala",
+                "url": "https://stepik.org/2294",
                 "language": "gb",
                 "cost": "free",
                 "providers": [{
                     "name": "Stepik",
                     "url": "https://stepik.org"
+                }]
+            },
+            {
+                "title": "Scala Tutorial",
+                "url": "https://stepik.org/55498",
+                "language": "gb",
+                "cost": "free",
+                "providers": [{
+                    "name": "JetBrains",
+                    "url": "https://www.jetbrains.com"
                 }]
             }
         ],
