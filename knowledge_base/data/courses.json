@@ -484,6 +484,16 @@
                     "name": "JetBrains",
                     "url": "https://www.jetbrains.com"
                 }]
+            },
+            {
+                "title": "Введение в Scala",
+                "url": "https://stepik.org/16243",
+                "language": "ru",
+                "cost": "free",
+                "providers": [{
+                    "name": "Tinkoff",
+                    "url": "http://fintech.tinkoff.ru"
+                }]
             }
         ],
         "C++": [{
